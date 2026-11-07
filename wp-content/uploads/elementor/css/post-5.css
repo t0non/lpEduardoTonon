@@ -1,0 +1,55 @@
+.elementor-kit-5{--e-global-color-primary:#a6c3ab;--e-global-color-secondary:#c6dcc9;--e-global-color-text:#f2f8f2;--e-global-color-accent:#101a14;--e-global-color-8fe7ba7:#202a23;--e-global-typography-primary-font-family:"Roboto";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Roboto Slab";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;}.elementor-kit-5 e-page-transition{background-color:#FFBC7D;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-con{--container-max-width:1140px;}.elementor-widget:not(:last-child){margin-block-end:0px;}.elementor-element{--widgets-spacing:0px 0px;--widgets-spacing-row:0px;--widgets-spacing-column:0px;}{}h1.entry-title{display:var(--page-title-display);}.site-header .site-branding{flex-direction:column;align-items:stretch;}.site-header{padding-inline-end:0px;padding-inline-start:0px;}.site-footer .site-branding{flex-direction:column;align-items:stretch;}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}/* Start custom CSS */html, body{
+width:100%;
+overflow-x:hidden;
+}
+
+::-webkit-scrollbar {
+  width: 7px; /* LARGURA DA SCROLLBAR */
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(180deg, #a6c3ab -2.98%, #a6c3ab 99.43%); /* BACKGROUND DA SCROLLBAR */
+    border-radius: 100px; /* ARREDONDAMENTO DA SCROLLBAR */
+}
+
+::-webkit-scrollbar-track{
+    background: #101a14; /* COR DE FUNDO DA SCROLLBAR */
+}
+
+[data-elementor-type="wp-page"]{
+    overflow: hidden;
+}
+
+[data-elementor-type="wp-post"]{
+    overflow: hidden;
+}
+
+body::after{
+content:"";
+position: fixed;
+top: 0;
+left: 0;
+width: 100vw;
+height: 100vh;
+background-image: radial-gradient(at 20% 80%, #fff 1px, transparent 0px);
+background-size: 2px 2px;
+pointer-events: none !important;
+z-index: 9999;
+opacity: 0.05;
+mix-blend-mode:plus-lighter;
+}
+
+::-webkit-scrollbar{
+    width: 0.7em;
+    background: #0c150e;
+}
+
+::-moz-selection { /* Compatibilidade Firefox */
+  color: #f2f8f2;
+  background: #b1cbb6;
+}
+
+::selection {
+  color: #f2f8f2;
+  background: #b1cbb6;
+}/* End custom CSS */
